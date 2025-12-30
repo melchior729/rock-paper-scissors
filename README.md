@@ -10,7 +10,7 @@ A JavaScript-based Rock Paper Scissors game played against the computer.
 ## How to Run
 1. Clone the repository.
 2. Open `index.html` in any modern web browser.
-3. Use the console or UI buttons to play.
+3. Use the UI buttons to play.
 
 ## Logic Overview
 * **Input**: User selects Rock, Paper, or Scissors.
