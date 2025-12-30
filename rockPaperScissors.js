@@ -1,3 +1,5 @@
+const { createElement } = require("react");
+
 const options = ['rock', 'paper', 'scissors'];
 
 const getComputerChoice = () => options[Math.floor(Math.random() * options.length)];
@@ -26,9 +28,17 @@ function playGame() {
         }
     }
 
-    for (let i = 0; i < 5; i++) {
-        playRound(getHumanChoice(), getComputerChoice());
-    }
+
+    const rock = document.createElement("button");
+    const paper = document.createElement("button");
+    const scissors = document.createElement("button");
+
+    rock.textContent = "rock";
+    paper.textContent = "paper";
+    scissors.textContent = "scissors";
+
+    rock.addEventListener("click", () => playRound());
+
 
     if (humanScore > computerScore) {
         text.textContent = `The human wins with ${humanScore} points vs ${computerScore} computer points!`;
