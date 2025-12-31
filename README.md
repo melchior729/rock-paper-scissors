@@ -1,26 +1,45 @@
-# Rock Paper Scissors
+# Calculator
 
-A browser-based **Rock Paper Scissors** game built for **The Odin Project** Foundations curriculum.
+A browser-based **Calculator** built for **The Odin Project – Foundations** curriculum.
 
 ## 🚀 Features
-- **Interactive UI:** Button-based gameplay using JavaScript DOM manipulation.
-- **Score Tracking:** First player (Human or Computer) to reach 5 points wins the match.
-- **Real-time Updates:** Game status and results update instantly in the page heading.
-- **Randomized Logic:** Computer choices generated using math-based random selection.
-- **GitHub Pages Ready:** Fully playable online with no local setup required.
+
+- **Interactive UI**  
+  Button-based calculations using JavaScript DOM manipulation.
+
+- **Operation Support**  
+  Handles basic arithmetic:
+  - Addition
+  - Subtraction
+  - Multiplication
+  - Division
+
+- **Smart Formatting**  
+  - Results are rounded to two decimal places  
+  - Trailing decimals are removed for whole numbers
+
+- **Input Reset**  
+  Integrated **Clear** functionality to reset the display and input state.
 
 ## 🛠️ Tech Stack
-- **HTML5:** Semantic structure for the game container.
-- **CSS3:** Center-aligned layout and basic styling.
-- **JavaScript:** Game logic, event listeners, and dynamic UI updates.
+
+- **HTML5**  
+  Structural layout for the calculator interface.
+
+- **CSS3**  
+  Dark-mode aesthetic with a Flexbox-centered circular button layout.
+
+- **JavaScript**  
+  Array-based input management and event-driven DOM updates.
 
 ## 🌐 Live Demo
-The project is hosted on **GitHub Pages** and available here:
 
-https://melchior729.github.io/rock-paper-scissors/
+View the live project here:  
+https://melchior729.github.io/calculator/
 
 ## 📂 Project Structure
-```text
-├── index.html            # Game structure
-├── style.css             # Page styling
-└── rockPaperScissors.js  # Game logic & DOM manipulation
+
+```plaintext
+├── index.html     # Calculator structure
+├── styles.css     # Dark-mode styling
+└── main.js        # Arithmetic logic & DOM manipulation
